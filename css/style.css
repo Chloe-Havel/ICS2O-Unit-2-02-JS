@@ -25,6 +25,11 @@ body {
   background-color: #4e837a;
 }
 
+#left-image {
+  position: absolute;
+  left: 0%;
+}
+
 p {
   color: blueviolet;
   font-family: Helvetica, Arial, sans-serif;
