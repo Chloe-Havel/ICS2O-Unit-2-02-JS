@@ -8,6 +8,7 @@
  * This function displays "Hello, World!".
  * @constructor
  */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+function doMathClicked() {
+  document.getElementById("multiply-math").innerHTML = "<p>Area =  " + (5 * 3) + "</p>" 
+  document.getElementById("add-math").innerHTML = "<p>perimeter = " + (2 * (5 + 3)) + "</p>"
 }
