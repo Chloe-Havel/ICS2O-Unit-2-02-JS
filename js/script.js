@@ -1,16 +1,18 @@
-// Copyright (c) 2020 Chloe Havel All rights reserved
+// Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Chloe Havel
+// Created by: Chloe Hvel
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
 
 /**
- * This function displays "Hello, World!".
- * @constructor
+ * This function gets users first name and age and shows it back to user.
  */
-function doMathClicked() {
-  document.getElementById("multiply-math").innerHTML =
-    "<p>The Area Is =  " + 5 * 3 + " cm²</p>"
-  document.getElementById("add-math").innerHTML =
-    "<p>The Perimeter Is = " + 2 * (5 + 3) + " cm</p>"
+function enterClicked() {
+  // input
+  const streetNumber = parseInt(document.getElementById("street-number").value)
+  const streetName = document.getElementById("street-name").value
+
+  // output
+  document.getElementById("address").innerHTML =
+    "Your info is: " + streetName + ", and " + streetNumber + "."
 }
